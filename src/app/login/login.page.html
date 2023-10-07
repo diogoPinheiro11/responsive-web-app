@@ -1,0 +1,29 @@
+<ion-content [fullscreen]="true" color="secondary">
+  <div class="container">
+    <ion-img src="assets/img/login.png"></ion-img>
+    <h1>Welcome Back</h1>
+    <p>Sign in to access your account</p>
+  </div>
+
+  <form>
+    <div class="ion-padding">
+      <ion-item>
+        <ion-input placeholder="Email"></ion-input>
+        <ion-icon name="person-outline" slot="end"></ion-icon>
+      </ion-item>
+
+      <ion-item>
+        <ion-input type="password" placeholder="Password"></ion-input>
+        <ion-icon name="lock-closed-outline" slot="end"></ion-icon>
+      </ion-item>
+    </div>
+  </form>
+
+  <div class="account">
+    <strong>Not a member yet? <a href="/register">Register now</a></strong>
+  </div>
+
+  <div class="button">
+    <ion-button [routerLink]="['/tabs/tab1']">Sign In</ion-button>
+  </div>
+</ion-content>

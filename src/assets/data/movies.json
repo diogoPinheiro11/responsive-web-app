@@ -1,0 +1,46 @@
+[
+    {
+        "id": "1",
+        "title": "1",
+        "genre": "1",
+        "rating imdb": "1",
+        "duration": "1",
+        "year": "1",
+        "synope":"1",
+        "png": "1",
+        "cast": "1"
+    },
+    {
+        "id": "2",
+        "title": "2",
+        "genre": "2",
+        "rating imdb": "2",
+        "duration": "2",
+        "year": "2",
+        "synope":"2",
+        "png": "2",
+        "cast": "2"
+    },
+    {
+        "id": "3",
+        "title": "3",
+        "genre": "3",
+        "rating imdb": "3",
+        "duration": "3",
+        "year": "3",
+        "synope":"3",
+        "png": "3",
+        "cast": "3"
+    },
+    {
+        "id": "4",
+        "title": "4",
+        "genre": "4",
+        "rating imdb": "4",
+        "duration": "4",
+        "year": "4",
+        "synope":"4",
+        "png": "4",
+        "cast": "4"
+    }
+]

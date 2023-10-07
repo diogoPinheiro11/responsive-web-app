@@ -1,0 +1,66 @@
+ion-content {
+    --background: transparent;
+    text-align: center;
+
+    .container {
+        margin-top: 14%;
+
+        h1 {
+            position: relative;    
+            bottom: 20px;
+            font-size: 32px;
+            color: black;
+        }
+    
+        p {
+            position: relative;    
+            bottom: 20px;
+            font-size: 14px;
+            color: gray;
+        }
+    }
+    
+    .ion-padding {
+        display: flex;
+        position: relative;
+        align-items: center;
+        flex-direction: column;
+        
+        ion-item {
+            --background: #fcfcfc;
+            --border-radius: 10px;
+            margin-bottom: 20px;
+            width: 75%;
+            max-width: 75%;
+        }
+        
+        ion-input {
+            font-size: 16px;
+        }
+    }
+
+    .account {
+        font-size: 16px;
+        position: relative;
+        bottom: 2%;
+
+        a {
+            color: #3880ff;
+        }
+    }
+
+    .button {     
+        ion-button {
+            max-width: 200px;
+            margin-top: 10%;
+            margin-bottom: 10%;
+        }
+    
+        ion-button:hover {
+            --background: #37b929;
+            transform: scale(1.4);
+            transition: background-color 0.3s, transform 0.2s;
+        }
+    }
+    
+}

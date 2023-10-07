@@ -1,0 +1,7 @@
+{
+  "name": "ipvc",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
